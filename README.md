@@ -1,4 +1,4 @@
-# Cryptocurrency trading platform
+# Cryptocurrency Trading Platform
 
 ## 已实现的主要功能：
 1. 首页：极具冲击力的英雄部分，运用了玻璃变形、霓虹发光效果和便当网格特色展示。
