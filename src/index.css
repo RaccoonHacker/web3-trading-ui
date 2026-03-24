@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Space Grotesk", sans-serif;
+
+  --color-background: #0b0e11;
+  --color-surface: #0b0e11;
+  --color-surface-container-low: #101417;
+  --color-surface-container: #161a1e;
+  --color-surface-container-high: #1c2024;
+  --color-surface-container-highest: #22262b;
+  --color-surface-variant: #22262b;
+  
+  --color-primary: #99f7ff;
+  --color-primary-container: #00f1fe;
+  --color-on-primary-fixed: #004145;
+  
+  --color-secondary: #bf81ff;
+  --color-secondary-dim: #9c42f4;
+  
+  --color-tertiary: #75ffb2;
+  --color-tertiary-dim: #48e395;
+  
+  --color-on-surface-variant: #a9abaf;
+  --color-outline-variant: #45484c;
+  
+  --color-error: #ff716c;
+  --color-error-dim: #d7383b;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-100 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-surface-variant/40 backdrop-blur-xl border border-primary/10;
+  }
+  
+  .kinetic-gradient {
+    @apply bg-gradient-to-br from-primary to-primary-container;
+  }
+  
+  .kinetic-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-primary to-primary-container;
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.15);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700;900&display=swap');
