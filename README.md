@@ -18,5 +18,5 @@
 4. 图表： 重新绘制图表用于响应迅速、高性能的数据可视化。
 5. 图标： lucide-react用于一套统一、现代的图标集。
 
-
+链接：https://vercel.com/raccoonhackers-projects/web3-trading-ui
 
