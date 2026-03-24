@@ -19,4 +19,5 @@
 5. 图标： lucide-react用于一套统一、现代的图标集。
 
 链接：https://vercel.com/raccoonhackers-projects/web3-trading-ui
+web3-trading-ui.vercel.app
 
